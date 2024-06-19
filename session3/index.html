@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thực hành session 03</title>
+    <style>
+      table {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>COLLEGE ADMISSIONS FORM</h1>
+      <p>Enter you admission information below</p>
+    </header>
+    <div>
+      <h3>Name</h3>
+      <table>
+        <form action="">
+          <tr>
+            <td>
+              <input type="text" name="first" id="first" /> <br />
+              <label for="first">First name</label>
+            </td>
+            <td>
+              <input type="text" name="middle" id="middle" /> <br />
+              <label for="middle">Middle Initial </label>
+            </td>
+            <td>
+              <input type="text" name="last" id="last" /> <br />
+              <label for="last">Last Name</label>
+            </td>
+          </tr>
+        </form>
+      </table>
+    </div>
+
+    <div>
+      <h3>Birth Date</h3>
+      <table>
+        <form action="">
+          <tr>
+            <td>
+              <select name="month" id="month">
+                <option value="Please select a month">
+                  Please select a month
+                </option>
+              </select>
+              <br />
+              <label for="time">Month</label>
+            </td>
+            <td>
+              <select name="day" id="day">
+                <option value="Please select a day">Please select a Day</option>
+              </select>
+              <br />
+              <label for="time">Day</label>
+            </td>
+            <td>
+              <select name="year" id="year">
+                <option value="Please select a year">
+                  Please select a Year
+                </option>
+              </select>
+              <br />
+              <label for="time">Year</label>
+            </td>
+          </tr>
+        </form>
+      </table>
+    </div>
+
+    <div>
+      <table>
+        <form action="">
+          <tr>
+            <td>
+              <h3>Gender</h3>
+              <input type="radio" name="gender" id="gender" />
+              <label for="gender">Male</label>
+              <input type="radio" name="gender" id="gender" />
+              <label for="gender">Female</label>
+            </td>
+            <td>
+              <h3>Of which country are you a citizen?</h3>
+              <select name="" id="city">
+                <option value="city">Please select</option>
+              </select>
+            </td>
+          </tr>
+        </form>
+      </table>
+    </div>
+
+    <div>
+      <form action="">
+        <table>
+          <tr>
+            <td>
+              <input
+                type="number"
+                name="phone"
+                id="phone"
+                placeholder="(000)-000-0000"
+              />
+              <br />
+              <label for="phone"><h3>Phone</h3></label>
+            </td>
+            <td>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="ex:myname@example.com"
+              />
+              <br />
+              <label for="email"><h3>E-mail Address</h3></label>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>example@gmail.com</td>
+          </tr>
+        </table>
+      </form>
+    </div>
+    <div>
+      <label for="feedback"><h3>Mailling Address</h3></label> <br />
+      <textarea name="feedback" id="feedback"></textarea>
+    </div>
+  </body>
+</html>
