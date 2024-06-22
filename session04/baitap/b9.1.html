@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./b9.1.css" />
+  </head>
+  <body>
+    <header>
+      <b>Hotel Search</b>
+      <div class="">
+        <a href="https://www.google.com/search?">Home</a>
+        <a href="https://www.google.com/search?">About</a>
+        <a href="https://www.google.com/search?">Contact</a>
+      </div>
+    </header>
+    <div id="main">
+      <h3>Find the Perfect Hotel for You</h3>
+      <div class="nav">
+        <form action="https://www.google.com/search?" method="get">
+          <label for="Address">Dectination:</label> <br />
+          <input
+            type="text"
+            name="Address"
+            id="Address"
+            placeholder="Enter a city on move"
+          />
+          <br />
+          <label for="date">Check-in:</label> <br />
+          <input type="date" name="date" id="date" /> <br />
+          <label for="date">Check-out:</label> <br />
+          <input type="date" name="date" id="date" /> <br />
+          <label for="number">Guests:</label> <br />
+          <select name="number" id="number">
+            <option value="number1">1</option>
+            <option value="number2">2</option>
+            <option value="number3">3</option>
+            <br />
+          </select>
+          <div class="subnav">
+            <button>Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <footer>
+      <p>&#169;2023 Hotel Search. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

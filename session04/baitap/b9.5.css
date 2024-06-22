@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #e8e8e8;
+}
+#main {
+    width: 300px;
+    height: 600px;
+    background-color: #fff ;
+    margin: auto;
+}
+table {
+    width: 100%;
+    border: none;
+    border-collapse: collapse;
+}
+td {
+    padding: 10px;
+}
+p {
+    padding: 10px;
+}
+h2 {
+    padding: 10px 15px;
+}
+.nav, .nav1 {
+    background-color: #dfd9ff;
+    border-collapse: collapse;
+}
+div {
+    margin: 10px 10px  ;
+}
+.subnav, .subnav1 {
+    text-align: right;
+}
+.nav1, .subnav1 {
+    font-weight: 700;
+}

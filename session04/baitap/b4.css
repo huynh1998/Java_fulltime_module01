@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main {
+    width: 200px;
+    height: 100%;
+    background-color: #ccc;
+    overflow-x:hidden;
+    padding-top: 20px;
+}
+a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 15px;
+    color: #000;
+}
+.subnav {
+    background-color: #00cc3b;
+    color: #fff;
+    
+}
+.nav {
+    margin-left: 200px;
+    padding: 20px;
+}

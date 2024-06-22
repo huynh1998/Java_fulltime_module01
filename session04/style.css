@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+section {
+    color: yellowgreen;
+    background-color: blanchedalmond;
+}
+div {
+    color: aqua;
+}
+#last-section {
+    color: red;
+    background-color: azure;
+}
+.b-style {
+    text-decoration: line-through;
+}
+.demo-class {
+    color: coral;
+}
+.demo-color {
+    color: rgb(228, 148, 20);
+}
+.demo-text-css {
+    text-align: left;
+    text-decoration: solid underline red;
+}
+h1 {
+    font-family: "Arial";
+    font-size: 50px;
+    font-weight: lighter;
+    font-style: italic;
+}
+.box-model {
+    background-color: #e46516;
+    color: #fff;
+    font-size: 30px;
+    width: 300px;
+    height: 300px;
+    margin: 100px;
+    padding: 100px;
+    border: 10px solid#000  ;
+    box-sizing: border-box;
+}
