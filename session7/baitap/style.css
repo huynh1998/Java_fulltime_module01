@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    height: 60px;
+    padding: 15px ;
+    border-bottom: 1px solid #ccc;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+}
+.header-container .logo img,
+ .header-container .information img {
+    height: 30px;
+    width: 30px;
+}
+.header-container .logo img {
+    border-radius: 5px;
+}
+.header-container .information img {
+    border-radius: 15px;
+}
+.header-container .search {
+    width: 350px;
+    height: 30px;
+    padding: 5px 10px;
+    background-color: #e8e8e8;
+    border-radius: 2px;
+    margin-right: 50px;
+}
+.search-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-form input {
+    flex: 1;
+    border: none;
+    background-color: #e8e8e8;
+}
+.information {
+    display: flex;
+}
+.information-text li, .information-icon li {
+    display: inline-block;
+}
+.information-text, .information-icon {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.information-text li {
+    padding: 0 5px;
+}
+.information-text li a {
+    text-decoration: none;
+    color: #383838;
+}
+.information-icon li {
+    padding: 0 2px ;
+}
+.information-icon li a {
+    color: #ccc;
+}
+
+             /* PHAN THAN  */
+
+.toolbar {
+    width: 20%;
+    height: 100vh;
+    background-color: #e8e8e8;
+    border-right: 2px solid #ccc;
+}
+.toolbar li {
+    
+    padding: 10px 20% ;
+    color: #8b8b8b;
+    
+}
+.toolbar li ion-icon {
+    font-size: 25px;
+    padding-right: 5px;
+}
+.toolbar li:hover {
+    background-color: #fff;
+    border-left: 5px solid blue;
+    color: #383838;
+    
+    transform: scale(1.1);
+}
+/* .toolbar li:nth-child(2) {
+    background-color: #fff;
+    color: #383838;
+    
+    border-left: 5px solid blue;
+    
+    border-right: none;
+} */
+.toolbar li:last-child, .toolbar li:nth-last-child(7), .toolbar li:nth-child(2) {
+    color: #383838;
+    font-weight: 600;
+}
+
+
+
+.nav {
+    display: flex;
+}
+.newsfeed {
+    width: 80%;
+    padding-top: 20px;
+    display: flex;
+    
+    
+
+}
+.container {
+    width: 100%;
+    display: flex;
+    padding: 0 20px;
+    
+}
+.container-left {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.status {
+    
+}
+.status-text {
+    height: 60px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    margin-bottom: 5px;
+    padding: 15px ;
+}
+.status-text img {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    
+}
+.status-text input {
+    border: none;
+    
+}
+.status-icon {
+    height: 30px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+.status-icon div:last-child {
+    margin-left: -20px;
+}
+
+
+
+
+
+
+.container-right {
+    height: 100vh;
+    flex: 1;
+}
+.friends {
+    padding: 5px;
+    border-radius: 2px ;
+    border: 1px solid #ccc;
+    height: 110px;
+}
+.friends-story, .image {
+    display: flex;
+    justify-content: space-between;
+}
+.image img {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+}
+.friends-story p {
+    padding-bottom: 10px;
+}
+
+
+
+
+.content1 {
+    padding: 20px 10px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    margin-top: 30px;
+}
+.account-avatar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+
+}
+.account-avatar span {
+    font-weight: bold;
+    
+    
+}
+.image1 {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.image1 img {
+    width: 100%;
+    border-radius: 10px;
+}
+.icon1 {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+.icon1-style {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    
+}
+.icon1 p {
+    padding-right: 10px;
+}
+
+.advertisement {
+    margin-top: 30px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px ;
+    
+}
+.advertisement img {
+    width: 100%;
+}
+
+
+.items {
+    position: relative;
+    width: 45%;
+}
+.price {
+    width: 60px;
+    height: 30px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    line-height: 30px;
+}

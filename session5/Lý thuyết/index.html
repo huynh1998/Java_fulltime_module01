@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Session5</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="nav">
+      <div class="nav-list">
+        <ul>
+          <li class="nav-item"><a href="">Giới thiệu</a></li>
+          <li class="nav-item"><a href="">Kết nối</a></li>
+          <li class="nav-item"><a href="">Tải ứng dụng</a></li>
+        </ul>
+      </div>
+      <div class="nav-list">
+        <ul>
+          <li class="nav-item"><a href="">Đăng ký</a></li>
+          <li class="nav-item"><a href="">Đăng nhập</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- Form layout  -->
+    <div class="form-container">
+      <form action="" class="form">
+        <div class="form-row">
+          <label class="form-label" for="name">Họ và tên</label>
+          <input class="form-input" type="text" name="name" id="name" />
+        </div>
+        <div class="form-row">
+          <label class="form-label" for="cmnd">CMND</label>
+          <input class="form-input" type="text" name="cmnd" id="cmnd" />
+        </div>
+        <div class="form-row">
+          <label class="form-label for="birthday">Ngày sinh</label>
+          <div class="select">
+            <select class="form-select" name="day" id="birthday">
+                <option value="day">Ngày</option>
+              </select>
+              <select class="form-select" name="month" id="birthday">
+                <option value="month">Tháng</option>
+                <option value="month">01</option>
+                <option value="month">02</option>
+                <option value="month">03</option>
+                <option value="month">04</option>
+                <option value="month">05</option>
+                <option value="month">06</option>
+                <option value="month">07</option>
+                <option value="month">08</option>
+                <option value="month">09</option>
+                <option value="month">10</option>
+                <option value="month">11</option>
+                <option value="month">12</option>
+              </select>
+              <select class="form-select" name="year" id="birthday">
+                <option value="year">1997</option>
+                <option value="year">1998</option>
+                <option value="year">1999</option>
+              </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <label class="form-label for="gender">giới tính</label>
+          <input class="gender" type="radio" name="gender" id="male" />
+          <label for="male">Name</label>
+          <input class="gender"  type="radio" name="gender" id="female" />
+          <label for="female">Nữ</label>
+        </div>
+        <div class="form-row">
+          <label class="form-label for="email">Email</label>
+          <input class="form-input" type="email" name="email" id="email" />
+        </div>
+        <div class="form-row">
+          <label class="form-label for="phone">Số điện thoại liên lạc</label>
+          <input class="form-input" type="tel" name="phone" id="phone" />
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

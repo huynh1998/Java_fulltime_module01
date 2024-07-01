@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.post-container {
+    width: 450px;
+}
+.post-container img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+h2 {
+    margin-bottom: 10px;
+}
+
+
+.text-align-section {
+    width: 600px;
+    margin: auto;
+    font-size: 18px;
+}
+.text-align-section .theory-wapper {
+    margin-bottom: 20px;
+}
+.text-align-section h2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.text-align-section p span {
+    color: #bd1974;
+    background-color: #f2f6f2;
+}
+.text-align-section p {
+    margin-bottom: 10px;
+}
+.demo {
+    width: 100%;
+    text-align: center;
+    border: 3px solid #0c7b0c;
+    padding: 10px ;
+}
+.container {
+    background-color: #e4e8ec;
+    padding: 10px;
+}
+.code-demo {
+    background-color: #f2f6f2;
+    border-left: 3px solid #0c7b0c;
+    padding: 10px;
+    margin: 10px 0;
+}
+.container button {
+    background-color: #0c7b0c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+}
+.model-container {
+    width: 800px;
+    border: 1px solid #ccc  ;
+    border-radius: 10px;
+    text-align: center;
+    margin: 20px auto;
+}
+.model-container div {
+    padding: 10px 0;
+}
+.model-container div :first-child {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+.model-container div:last-child {
+    background-color: #f7f7f7;
+    border-top: 1px solid #ccc;
+}
+.model-container div h3, .model-container div p {
+    margin-bottom: 10px;
+}
+.model-container div button {
+    background-color: #0c7b0c;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+}  
+
+
+
+.accordion-container {
+    width: 800px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin: 10px auto;
+}
+
+.accordion-container .accordion-item .tittle, .content {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    position: relative;
+}
+.accordion-container .accordion-item:last-child .tittle {
+    border: none;
+}
+.accordion-container .accordion-item:first-child .tittle {
+    background-color: #e8f2ff;
+    color: #1f6ae8;
+}
+.accordion-container .accordion-item .fa-solid {
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+
+ 
+
+.post-container {
+    margin: 10px auto;
+    position: relative;
+}
+.post-container .tittle-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,0.4) ;
+    color: #fff;
+    padding: 20px;
+}
+.post-container button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px;
+    background-color: rgba(0,0,0,0.4) ;
+    color: #fff;
+    font-weight: bold;
+}
+.post-container .tittle-container h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    
+}

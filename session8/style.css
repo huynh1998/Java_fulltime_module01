@@ -1,0 +1,607 @@
+/* GLOBAL CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cabin", sans-serif;
+  color: #231651;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.section-style {
+  padding: 10px 150px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .section-style {
+    padding: 10px;
+  }
+}
+/* NAVBAR CSS  */
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 1px 5px 7px 0px rgba(165, 165, 165, 0.75);
+}
+.main-nav .logo img {
+  width: 145px;
+}
+.main-nav .nav-item {
+  display: flex;
+  justify-content: space-between;
+  gap: 35px;
+}
+.main-nav .language {
+  background-color: #f8f7fb;
+  padding: 6px 14px;
+  border-radius: px;
+}
+.responsive-navbar {
+  display: none;
+}
+
+@media only screen and (max-width: 960px) {
+  .main-nav {
+    display: none;
+  }
+  .responsive-navbar {
+    display: flex;
+  }
+}
+
+/* HEADER CSS */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: url(./img/bg-home1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  height: 465px;
+}
+.section-style img {
+  width: 500px;
+}
+header .hero-section h2 {
+  font-size: 32px;
+  line-height: 48px;
+}
+header .hero-section ul {
+  padding-bottom: 30px;
+}
+header .hero-section li {
+  font-size: 16px;
+  padding-left: 30px;
+  margin-bottom: 10px;
+  background-image: url(./img/icon-check.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+.button {
+  display: flex;
+  gap: 20px;
+}
+header .hero-section button {
+  padding: 10px 25px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+header .hero-section button:first-child {
+  background-color: #be0000;
+  color: #fff;
+}
+header .hero-section button:last-child {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #ccc;
+}
+
+/* LOI ICHS */
+.benefit {
+  padding: 0 150px;
+  background-color: #f8f7fa;
+}
+.benefit ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.benefit li {
+  padding: 10px 30px;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  position: relative;
+  top: -60px;
+}
+.benefit li:hover {
+  transform: translateY(-20px);
+  transition: all 0.2s ease-in;
+}
+.benefit h3 {
+  font-size: 24px;
+  line-height: 28px;
+  color: #be0000;
+  padding-bottom: 10px;
+}
+.benefit p {
+  font-size: 16px;
+  line-height: 26px;
+  padding-bottom: 10px;
+}
+
+/* PHAN DESIRE */
+
+.desire {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  align-items: center;
+  padding: 40px 150px 120px;
+  background-color: #f8f7fb;
+}
+.desire img {
+  width: 500px;
+}
+.desire p {
+  padding-bottom: 20px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.desire h3 {
+  font-size: 24px;
+  color: #be0000;
+}
+
+/* Ưu điểm vượt trội khi học lập trình tại Rikkei Academy */
+
+.advantage {
+  padding: 50px 150px;
+}
+.advantage ul {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 30px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.advantage ul li img {
+  width: 40px;
+}
+.advantage h3 {
+  font-size: 24px;
+  color: #be0000;
+}
+.advantage h4 {
+  font-size: 20px;
+  color: #be0000;
+  padding-bottom: 20px;
+}
+.advantage p {
+  font-size: 16px;
+  line-height: 20px;
+}
+.advantage-button {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.advantage-button button {
+  padding: 10px 25px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+.advantage-button button:first-child {
+  background-color: #be0000;
+  color: #fff;
+}
+.advantage-button button:last-child {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #ccc;
+}
+.advantage-button button:last-child:hover {
+  background-color: #be0000;
+  color: #fff;
+}
+
+/* Phan method */
+.method {
+  padding: 80px 150px;
+  background-color: #f8f7fb;
+}
+.method h3 {
+  font-size: 24px;
+  line-height: 32px;
+  color: #be0000;
+  padding-bottom: 20px;
+}
+.method p {
+  background-image: url(./img/icon-check1.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding-left: 32px;
+}
+
+.method h4 {
+  font-size: 20px;
+  line-height: 32px;
+  padding-bottom: 20px;
+}
+.method ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding-bottom: 50px;
+}
+.method ul li {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  line-height: 25px;
+}
+.method ul li:hover {
+  background-color: #be0000;
+}
+.method ul li:hover h4,
+.method ul li:hover p {
+  color: #fff;
+}
+.method-button {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+.method-button button {
+  padding: 10px 25px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+.method-button button:first-child {
+  background-color: #be0000;
+  color: #fff;
+}
+.method-button button:last-child {
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid #ccc;
+}
+.method-button button:last-child:hover {
+  background-color: #be0000;
+  color: #fff;
+}
+
+/* CAU CHUYEN  */
+
+.story {
+  padding: 80px 150px 0px;
+}
+.story-text {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15px 40px;
+  gap: 30px;
+}
+.story-text h3 {
+  flex: 1;
+  font-size: 25px;
+  color: #be0000;
+}
+.story-text p {
+  flex: 1;
+}
+.story-video {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 30px;
+  padding: 0 15px 40px;
+}
+.story-video img {
+  width: 537px;
+  height: 322px;
+}
+.story-video-name {
+  display: flex;
+  gap: 20px;
+  padding: 20px 0;
+  align-items: center;
+}
+.story-video-name p {
+  border: 1px solid #ccc;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #f8f7fa;
+  padding: 0 10px;
+  line-height: 24px;
+  border-radius: 5px;
+}
+.banner {
+  padding: 0px 150px;
+}
+.banner img {
+  width: 100%;
+}
+
+/* PHAN lecturers */
+
+.lecturers {
+  padding: 50px 150px;
+}
+.lecturers-text {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  padding-bottom: 50px;
+}
+.lecturers-text h3 {
+  font-size: 25px;
+  flex: 1;
+  color: #be0000;
+}
+.lecturers-text p {
+  flex: 1;
+}
+.lecturers-video {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+.lecturers-video div {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+.lecturers-video div img {
+  width: 230px;
+  height: 230px;
+  border: 1px solid #eae9e9;
+  border-radius: 5px;
+}
+.lecturers-video div h3 {
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+.lecturers-video div span {
+  padding: 2px 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.lecturers-video div p {
+  padding-top: 15px;
+  line-height: 25px;
+}
+.lecturers-video div:hover {
+  transform: translateY(-25px);
+  background-color: rgb(35, 22, 81);
+
+  transition: all 0.2s ease-in;
+}
+.lecturers-video div:hover h3,
+.lecturers-video div:hover p {
+  color: #fff;
+}
+.lecturers-video div:hover span {
+  background-color: #fff;
+}
+
+/* PHAN DANG KY  */
+
+.register {
+  padding: 80px 150px;
+  background-image: url(./img/bg-contact.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+}
+
+.register-right {
+  flex: 1;
+  padding: 25px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.register-right h4 {
+  font-size: 22px;
+  line-height: 28px;
+}
+.register-right input,
+.register-right select,
+.register-right button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+.register-right input,
+.register-right select {
+  border: 1px solid #ccc;
+}
+.register-right button {
+  background-color: #be0000;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+}
+.register-left {
+  flex: 1;
+  padding-right: 100px;
+  padding-top: 40px;
+}
+.register-left h3 {
+  font-size: 30px;
+  line-height: 40px;
+  background-color: #be0000;
+  color: #fff;
+  padding: 5px 0px 5px 5px;
+}
+.register-left p {
+  padding-top: 20px;
+  font-size: 20px;
+  line-height: 32px;
+  color: #fff;
+}
+.time {
+  display: flex;
+  padding-left: 20px;
+  padding-top: 30px;
+}
+.time div {
+  text-align: center;
+  padding-right: 40px;
+}
+.time div span {
+  color: #fff;
+  font-size: 50px;
+  font-weight: bold;
+}
+.time div h4 {
+  color: #fff;
+  font-size: 15px;
+}
+
+/* PHAN SU KIEN */
+.event {
+  padding: 50px 150px;
+  background-color: #f8f7fb;
+}
+.event h3 {
+  font-size: 25px;
+  line-height: 32px;
+  color: #be0000;
+}
+.event-video {
+  padding: 20px 20px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 20px;
+}
+.event-video div {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.event-video img {
+  width: 313px;
+  height: 210px;
+  border-radius: 5px;
+}
+
+/* PHAN FOOTER  */
+
+footer {
+  padding: 40px 150px 0px;
+  background-color: #be0000;
+}
+.footer1 {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  border-bottom: 1px solid #fff;
+  padding-bottom: 40px;
+}
+
+.footer1-box1 img {
+  width: 202px;
+}
+
+.footer1 li {
+  padding: 6px 0;
+}
+.footer1 li a {
+  color: #fff;
+  font-size: 14px;
+  line-height: 22px;
+}
+.footer1 h3 {
+  font-size: 16px;
+  color: #fff;
+}
+.footer1 h4 {
+  color: #fff;
+  font-size: 14px;
+}
+.footer1-box1 p,
+.footer1-box1 i {
+  color: #fff;
+}
+.footer1-box1 i {
+  padding-right: 10px;
+}
+.footer1-box1 p {
+  line-height: 22px;
+}
+.footer1-box1-center {
+  padding: 30px 0px;
+}
+.footer1-box1-center p {
+  line-height: 22px;
+  color: #fff;
+}
+.footer1-box2 {
+  flex: 1.5;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+.footer1-box1 {
+  flex: 1;
+}
+
+.footer1-box1 a i {
+  font-size: 20px;
+}
+.footer1-box1 a {
+  padding: 20px 0;
+}
+
+/* FOOTER 2 */
+
+.footer2 {
+  padding: 30px 15px 10px;
+}
+.footer2-box1 {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 40px;
+  padding-bottom: 40px;
+}
+.footer2-box1 h4 {
+  color: #fff;
+  padding: 20px 0;
+  font-size: 16px;
+  line-height: 26px;
+}
+.footer2-box1 p {
+  font-size: 14px;
+  line-height: 22px;
+  color: #fff;
+  padding-bottom: 5px;
+}
+.footer2-box1 i {
+  color: #fff;
+  padding-right: 10px;
+}
+.footer2-box1-address {
+  display: flex;
+  justify-content: space-between;
+}
+.footer2-box2 p {
+  text-align: center;
+  color: #fff;
+  font-size: 12px;
+  line-height: 20px;
+}

@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(50,50,50);
+}
+.main-nav {
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+    box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.3);
+}
+.main-nav .col-left {
+    display: flex;
+}
+.main-nav .col-right {
+    display: flex;
+}
+/* .main-nav .col-right li {
+    list-style-type: none;
+} */
+.main-nav .col-right a {
+    text-decoration: none;
+}
+.main-nav .col-left .logo i {
+    font-size: 40px;
+    color: #443071;
+    margin-right: 60px;
+}
+.main-nav .col-left .search-form input {
+    padding: 8px 10px;
+    width: 400px;
+    background-color: #f6f8fb;
+    border: 1px solid #f4f7f6;
+    border-radius: 4px;
+}
+.main-nav .col-left .search-form {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-nav .col-left .search-form i {
+    position: absolute;
+    top: 11px;
+    right: 10px;
+}
+
+
+.main-nav .col-right  {
+    display: flex;
+}
+.main-nav .col-right .col-right-profile {
+    display: flex;
+}
+.main-nav .col-right .col-right-action {
+    display: flex;
+    gap: 15px ;
+}
+
+.main-nav .col-right .profile-item {
+    padding: 0 10px;
+    
+}
+.main-nav .col-right .profile-item a {
+    display: flex;
+    border-right: 2px solid #000;
+    padding: 0 5px;
+}
+.main-nav .col-right .profile-item:first-child a {
+    display: flex;
+    align-items: center;
+}
+.main-nav .col-right .profile-item:nth-child(3) a {
+    border: none;
+}
+.main-nav .col-right .profile-item .avatar img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.main-nav .col-right .list-item {
+    display: flex;
+    align-items: center;
+}
+
+
+/* Phan menu  */
+
+#menu {
+    width: 20%;
+    height: 100vh;
+    background-color: #e8e8e8;
+    box-shadow: 4px -1px 5px -1px rgba(0,0,0,0.31);
+    
+}
+.menu-first {
+    padding: 20px 0;
+}
+.menu-first li a, .menu-last li a {
+    color: #afafaf;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+
+    
+}
+.menu-first li a i, .menu-last li a i {
+    font-size: 20px;
+    padding-right: 5px;
+}
+.menu-first li, .menu-last li {
+    list-style-type: none;
+    padding: 10px 30px;
+}
+.menu-first li:hover , .menu-last li:hover {
+    background-color: #fff;
+    border-left: 3px solid blue;
+    
+}
+.menu-first li:hover a, .menu-last li:hover a {
+    color: #444444;
+    font-weight: 500;
+}
+.menu-first span, .menu-last span {
+    font-weight: 700;
+}
+
+
+/* Phan content */
+#body {
+    display: flex;
+}
+#content {
+    width: 80%;
+    padding: 16px 30px;
+    display: flex;
+    gap: 10px ;
+}
+.content-left {
+    width: 65%;
+}
+.content-left-first {
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    
+}
+.content-left-first-top {
+    padding: 16px 12px;
+    display: flex;
+    gap: 10px ;
+    align-items: center;
+
+}
+.content-left-first-top-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.content-left-first-top-img img {
+    width: 30px;
+}
+.content-left-first-top-input {
+    flex: 1;
+}
+.content-left-first-top-input input {
+    padding: 5px 10px;
+    width: 100%;
+    border: none;
+}
+
+.content-right {
+    width: 35%;
+    background-color: violet;
+}
+.content-left-first-bottom {
+    border-top: 1px solid #ccc;
+    display: flex;
+}
+.content-left-first-bottom-left {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}

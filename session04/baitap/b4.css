@@ -1,27 +1,30 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-#main {
-    width: 200px;
-    height: 100%;
-    background-color: #ccc;
-    overflow-x:hidden;
-    padding-top: 20px;
-}
-a {
-    text-decoration: none;
-    display: block;
-    padding: 10px 15px;
-    color: #000;
-}
-.subnav {
-    background-color: #00cc3b;
-    color: #fff;
-    
-}
-.nav {
-    margin-left: 200px;
-    padding: 20px;
-}
+
+   #menu {
+     width: 200px;
+     height: 100vh;
+     background-color: #f1f1f1;
+     overflow-x: hidden;
+     padding-top: 20px;
+     
+   }
+
+
+   #menu a {
+     display: block;
+     padding: 12px 16px;
+     text-decoration: none;
+     color: #000;
+   }
+
+
+   #menu a.active {
+     background-color: #4CAF50;
+     color: #fff;
+   }
+
+
+   /* Định dạng phần tử nội dung */
+   #main {
+     margin-left: 200px;
+     padding: 20px;
+   }
