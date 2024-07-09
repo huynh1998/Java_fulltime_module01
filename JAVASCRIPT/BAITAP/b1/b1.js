@@ -91,3 +91,45 @@
 // }
 // console.log(sum);
 
+//-----------------------------------------------------------------------------
+// MANG
+
+// Bài 2: Viết một chương trình nhận một số nhập vào và chèn dấu (_) giữa 2 số chẵn.
+
+// let string = prompt("Nhap vao chuoi so ");
+// let convert = string.split("");
+// for (i = 0; i < convert.length - 1; i = i + 1) {
+//   if (convert[i] % 2 === 0 && convert[i + 1] % 2 === 0) {
+//     convert.splice(i + 1, 0, "-");
+//   }
+// }
+
+// console.log(convert.join(""));
+
+// Bài 3: Viết một chương trình nhập vào một chuỗi và
+//  chuyển các ký tự chữ thường trong chuỗi vừa nhập sang thành dạng chữ hoa.
+
+// let text = "Keep Calm And Code On";
+// let string = "";
+// for (i = 0; i <= text.length - 1; i = i + 1) {
+//   if (text[i] === text[i].toUpperCase()) {
+//     string = string + text[i].toLowerCase();
+//   } else {
+//     string = string + text[i].toUpperCase();
+//   }
+// }
+// console.log(string);
+
+// Phát triển một ứng dụng từ điển đơn giản. Ứng dụng cho phép tra cứu các từ tiếng Anh sang tiếng Việt.
+// Danh sách các từ được lưu trữ trong các mảng.
+
+let language = prompt("Moi ban nhap 1 tu tieng anh");
+let english = ["apple", "orange", "banana"];
+let vietnam = ["qua tao", "qua cam", "qua chuoi"];
+let text = "";
+for (i = 0; i <= english.length - 1; i = i + 1) {
+  if (language == english[i]) {
+    text = text + vietnam[i];
+    console.log(text);
+  }
+}
