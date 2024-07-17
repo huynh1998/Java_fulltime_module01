@@ -1,0 +1,14 @@
+#hover {
+  width: 100px;
+  line-height: 28px;
+  border-bottom: 1px dashed #000;
+}
+#show {
+  background-color: #ccc;
+  padding: 10px 20px;
+  color: #fff;
+  border-radius: 5px;
+  width: 100px;
+  text-align: center;
+  display: none;
+}

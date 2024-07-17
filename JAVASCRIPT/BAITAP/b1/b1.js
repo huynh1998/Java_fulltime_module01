@@ -123,13 +123,90 @@
 // Phát triển một ứng dụng từ điển đơn giản. Ứng dụng cho phép tra cứu các từ tiếng Anh sang tiếng Việt.
 // Danh sách các từ được lưu trữ trong các mảng.
 
-let language = prompt("Moi ban nhap 1 tu tieng anh");
-let english = ["apple", "orange", "banana"];
-let vietnam = ["qua tao", "qua cam", "qua chuoi"];
-let text = "";
-for (i = 0; i <= english.length - 1; i = i + 1) {
-  if (language == english[i]) {
-    text = text + vietnam[i];
-    console.log(text);
-  }
-}
+// let language = prompt("Moi ban nhap 1 tu tieng anh");
+// let english = ["apple", "orange", "banana"];
+// let vietnam = ["qua tao", "qua cam", "qua chuoi"];
+// let text = "";
+// for (i = 0; i <= english.length - 1; i = i + 1) {
+//   if (language == english[i]) {
+//     text = text + vietnam[i];
+//     console.log(text);
+//   }
+// }
+
+// Bài 1: Viết chương trình khởi tạo nhập vào một mảng số nguyên gồm 10 phần tử.
+//  Chương trình thực hiện tính và hiển thị xem có bao nhiêu số nguyên lớn hơn hoặc bằng 10.
+
+// let array = [1, 5, 25, 7, 8, 12, 15, 18, 4, 22];
+// let dem = 0;
+// for (i = 0; i <= array.length - 1; i = i + 1) {
+//   if (array[i] > 10) {
+//     console.log(array[i]);
+//     dem = dem + 1;
+//   }
+// }
+// console.log(dem);
+
+// Bài 2: Viết chương trình khởi tạo nhập vào một mảng số nguyên gồm 10 phần tử khác nhau.
+//  Chương trình hiển thị ra được phần tử có giá trị lớn nhất trong mảng và vị trí của phần tử đó.
+
+// let array = [1, 5, 25, 7, 8, 12, 15, 18, 4, 22];
+// let max = array[0];
+// for (i = 0; i <= array.length - 1; i = i + 1) {
+//   if (array[i] > max) {
+//     max = array[i];
+//     vitri = i;
+//   }
+// }
+// console.log(`So lon nhat ${max} o vi tri thu ${vitri}`);
+
+// Bài 3: Viết chương trình khởi tạo nhập vào một mảng số nguyên.
+//  Hiển hiện giá trị lớn nhất trong mảng đó và giá trị trung bình của các phần tử trong mảng.
+
+// let array = [1, 5, 25, 7, 8, 12, 15, 18, 4, 22];
+// let max = array[0];
+// let sum = 0;
+
+// for (i = 0; i <= array.length - 1; i = i + 1) {
+//   sum = sum + array[i];
+//   if (max < array[i]) {
+//     max = array[i];
+//   }
+// }
+// let TB = sum / array.length;
+// console.log(TB);
+// console.log(max);
+
+// Bài 4: Viết chương trình khởi tạo nhập vào một mảng số nguyên và đảo ngược các phần tử trong mảng đó.
+
+// let array = [1, 5, 25, 7, 8, 12, 15, 18, 4, 22];
+// let a = [];
+// for (i = array.length - 1; i >= 0; i = i - 1) {
+//   a.push(array[i]);
+// }
+// console.log(a);
+
+// Bài 5: Viết chương trình đếm số nguyên âm trong một chuỗi.
+
+// let a = [];
+// for (i = 0; i <= 5; i = i + 1) {
+//   let check = true;
+//   while (check == true) {
+//     let n = +prompt("Nhap so nguyen");
+//     if (Number.isInteger(n)) {
+//       a.push(n);
+//       check = false;
+//     } else {
+//       alert("Vui long nhap lai");
+//     }
+//   }
+// }
+// console.log(a);
+// let dem = 0;
+// for (i = 0; i <= a.length - 1; i = i + 1) {
+//   if (a[i] < 0) {
+//     dem = dem + 1;
+//     console.log(a[i]);
+//   }
+// }
+// console.log(dem);

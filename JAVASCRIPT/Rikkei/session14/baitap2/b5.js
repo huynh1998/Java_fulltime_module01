@@ -1,10 +1,10 @@
 let a = "1,2,3,4,5";
-let b = "1,2,3,4,6";
+let b = "1,2,3,4,5,6";
 console.log(a);
 console.log(b);
 let check = false;
 for (i = 0; i <= a.length - 1; i = i + 1) {
-  if (a[i] !== b[i]) {
+  if (a[i] !== b[i] && a.length === b.length) {
     check = true;
     break;
   }
