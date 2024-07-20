@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  padding: 10px 50px;
+}
+.red {
+  color: red;
+}
+
+.xanh {
+  color: green;
+}
