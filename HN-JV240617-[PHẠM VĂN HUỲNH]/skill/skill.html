@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Skill</title>
+    <link rel="stylesheet" href="skill.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="user">
+        <p>Phạm Văn Huỳnh</p>
+        <div class="user-icon"><i class="fa-solid fa-user"></i></div>
+        <div><i class="fa-solid fa-angle-down"></i></div>
+      </div>
+    </header>
+    <main>
+      <div class="main-left">
+        <ul>
+          <li><a href="http://127.0.0.1:5500/skill/skill.html">Kỹ năng</a></li>
+          <li>
+            <a href="http://127.0.0.1:5500/project/project.html">Dự án</a>
+          </li>
+        </ul>
+      </div>
+      <div class="main-right">
+        <div class="main-right-top">
+          <h2>Kỹ năng</h2>
+          <button id="add-skill" type="button">Thêm mới kỹ năng</button>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>STT</th>
+              <th>Tên Kỹ Năng</th>
+              <th>Hình ảnh</th>
+              <th>Năm kinh nghiệm</th>
+              <th>Ngày thêm</th>
+              <th>Chức năng</th>
+            </tr>
+          </thead>
+          <tbody id="list-skill">
+            <!-- <tr>
+              <td>1</td>
+              <td>ReactJS</td>
+              <td>
+                <img width="100px" src="../img/logo/2.png" alt="" />
+              </td>
+              <td>1 năm</td>
+              <td>23/07/2024</td>
+              <td>
+                <button id="delete-project" type="button">Xóa</button>
+              </td>
+            </tr> -->
+          </tbody>
+        </table>
+      </div>
+    </main>
+    <div id="box-model" class="box-model">
+      <div class="form-input">
+        <div class="form-input-top">
+          <h2>Thêm mới kỹ năng</h2>
+          <p id="error-skill"></p>
+          <h2 id="close"><i class="fa-solid fa-xmark"></i></h2>
+        </div>
+        <form action="">
+          <label for="name-skill">Tên kỹ năng</label> <br />
+          <input type="text" id="name-skill" /> <br />
+          <label for="year">Năm kinh nghiệm</label> <br />
+          <input type="text" id="year" /> <br />
+          <label for="image">Hình ảnh</label> <br />
+          <input type="text" id="image" />
+        </form>
+
+        <div class="box-input">
+          <button id="cancel" class="cancel" type="button">Hủy</button>
+          <button id="submit" class="submit" type="button">Thêm</button>
+        </div>
+      </div>
+    </div>
+    <script src="skill.js"></script>
+    <script
+      src="https://kit.fontawesome.com/e6840b0d17.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

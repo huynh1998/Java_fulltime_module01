@@ -85,7 +85,6 @@ let todoListDB = [
   },
 ];
 
-window.localStorage.setItem("todoListDB", JSON.stringify(todoListDB));
 //Buoc1:
 //Hien thi du lieu data base ra trinh duyet HTML
 
@@ -159,7 +158,7 @@ function render() {
       //B1 : Lay ra the li dang chua delBtn(.parentElement)
       let li = delBtn.parentElement;
       //B2 : Lay ra duoc attribute id cua the li cha
-      let id = li.id;
+      // let id = li.id;
       //B3 : Tim duoc doi tuong du lieu ung voi the li cha vua bam vao
       let findIndex = todoListDB.findIndex(function (el, i) {
         return el.id === +li.id;

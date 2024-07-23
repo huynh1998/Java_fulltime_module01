@@ -26,10 +26,10 @@
 
 //getItem : Lấy dữ liệu từ local storage
 
-let profile = JSON.parse(window.localStorage.getItem("profile"));
-console.log("profile", profile);
+// let profile = JSON.parse(window.localStorage.getItem("hobbies"));
+// console.log("profile", profile);
 
-//setItem : Lưu trữ dữ liệu vào trong local storage
+// //setItem : Lưu trữ dữ liệu vào trong local storage
 
 window.localStorage.setItem(
   "address",

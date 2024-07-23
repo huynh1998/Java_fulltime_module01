@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <link rel="stylesheet" href="project.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="user">
+        <p>Phạm Văn Huỳnh</p>
+        <div class="user-icon"><i class="fa-solid fa-user"></i></div>
+        <div><i class="fa-solid fa-angle-down"></i></div>
+      </div>
+    </header>
+    <main>
+      <div class="main-left">
+        <ul>
+          <li><a href="http://127.0.0.1:5500/skill/skill.html">Kỹ năng</a></li>
+          <li>
+            <a href="http://127.0.0.1:5500/project/project.html">Dự án</a>
+          </li>
+        </ul>
+      </div>
+      <div class="main-right">
+        <div class="main-right-top">
+          <h2>Kỹ năng</h2>
+          <button id="addBtn" type="button">Thêm mới dự án</button>
+        </div>
+        <table>
+          <thead>
+            <tr>
+              <th>STT</th>
+              <th>Tên dự án</th>
+              <th>Hình ảnh</th>
+              <th>Công nghệ</th>
+              <th>Chức năng</th>
+            </tr>
+          </thead>
+          <tbody id="list-project">
+            <tr>
+              <td>1</td>
+              <td>Lazada</td>
+              <td>
+                <a href="">
+                  <img src="" alt="" />
+                </a>
+              </td>
+              <td></td>
+              <td>
+                <button id="fix" type="button" onclick="fixProject()">
+                  Sửa
+                </button>
+                <button
+                  id="delete-project"
+                  type="button"
+                  onclick="deleteProject()"
+                >
+                  Xóa
+                </button>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </main>
+    <div id="box-model" class="box-model">
+      <div class="form-input">
+        <div class="form-input-top">
+          <h2>Thêm mới dự án</h2>
+          <p id="error-project"></p>
+          <h2 id="closeup"><i class="fa-solid fa-xmark"></i></h2>
+        </div>
+        <form action="">
+          <label for="project-name-update">Tên dự án</label> <br />
+          <input type="text" id="project-name-update" /> <br />
+          <label for="image-project-update">Hình ảnh</label> <br />
+          <input type="text" id="image-project-update" /> <br />
+          <label for="technology-update">Công nghệ sử dụng</label> <br />
+          <input type="text" id="technology-update" />
+          <label for="link-update">Link github</label> <br />
+          <input type="text" id="link-update" /> <br />
+        </form>
+        <div class="box-input">
+          <button id="cancel" class="cancel" type="button">Hủy</button>
+          <button id="submit" class="submit" type="button">Thêm</button>
+        </div>
+      </div>
+    </div>
+
+    <div id="box-model-update" class="box-model-update">
+      <div class="form-update">
+        <div class="form-update-top">
+          <h2>Sửa dự án</h2>
+          <h2 id="closeup-update"><i class="fa-solid fa-xmark"></i></h2>
+        </div>
+        <form action="">
+          <label for="project-name">Tên dự án</label> <br />
+          <input type="text" id="project-name" /> <br />
+          <label for="image-project">Hình ảnh</label> <br />
+          <input type="text" id="image-project" /> <br />
+          <label for="technology">Công nghệ sử dụng</label> <br />
+          <input type="text" id="technology" />
+          <label for="link">Link github</label> <br />
+          <input type="text" id="link" /> <br />
+        </form>
+        <div class="box-input">
+          <button id="cancel-update" class="cancel-update" type="button">
+            Hủy
+          </button>
+          <button id="submit-update" class="submit-update" type="button">
+            Cập nhật
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="project.js"></script>
+    <script
+      src="https://kit.fontawesome.com/e6840b0d17.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
